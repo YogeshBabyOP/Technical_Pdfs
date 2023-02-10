@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: purple;
+    background: linear-gradient(to right top, rgb(178, 111, 178), rgb(103, 142, 174));
+    /* background-image: url(images/bg2.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+}
+
+@media(min-width : 786px) {
+    section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; 
+    }
+}
