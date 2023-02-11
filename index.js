@@ -1,8 +1,6 @@
 const shareButton = document.getElementById("btn");
 
-shareButton.addEventListener('click', e => {
-
-
+function OP () {
     if (navigator.share) {
         navigator.share({
             text : 'please read this great article : ',
@@ -14,4 +12,5 @@ shareButton.addEventListener('click', e => {
     } else {
         window.alert("Hii")
     }
-});
+} 
+
